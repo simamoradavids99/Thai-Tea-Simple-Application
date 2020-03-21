@@ -1,0 +1,10 @@
+CREATE TABLE `jual_beli` (
+  `Nomor_Antrian` int(11) NOT NULL,
+  `Nama_Pembeli` varchar(20) NOT NULL,
+  `Jumlah_Beli` int(11) NOT NULL,
+  `Total_Bayar` double NOT NULL,
+  `Uang_Bayar` double NOT NULL,
+  `Uang_Kembali` double NOT NULL,
+  `Hari_Tanggal` varchar(20) NOT NULL,
+  PRIMARY KEY (`Nomor_Antrian`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
